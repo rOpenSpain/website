@@ -41,7 +41,7 @@ defaultContentLanguage = "es"
 [[menu.topbar]]
     weight = 3
     name = "Twitter"
-    url = "http://twitter.com"
+    url = "http://twitter.com/rOpenSpain"
     pre = "<i class='fa fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
