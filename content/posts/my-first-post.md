@@ -22,3 +22,4 @@ Si tienes una iniciativa, de software o de datos, que consideras que encuentra c
 Los interesados pueden mandar un correo a: ![](../images/emilio.PNG)
 
 ¡Empezamos!
+
