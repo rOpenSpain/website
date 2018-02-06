@@ -19,6 +19,6 @@ Es por ello que iniciamos este camino, pidiendo vuestra colaboración. Si sois e
 Si tienes proyectos que en alguna forma están relacionados con los datos en Español, manda un correo y estaremos encantados de que te unas al proyecto. Si tienes repositorios dedicados a este tema, háznoslo saber, y te incluiremos en nuestra relación de repositorios asociados.
 Si tienes una iniciativa, de software o de datos, que consideras que encuentra cabida con nosotros. Ven. Estamos deseando conocerte.
 
-Los interesados pueden mandar un correo a: ![](images/emilio.PNG)
+Los interesados pueden mandar un correo a: ![](../images/emilio.PNG)
 
 ¡Empezamos!
