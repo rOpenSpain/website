@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://ropenspain.es/"
 languageCode = "es-es"
 title = "rOpenSpain"
-theme = "universal"
+theme = "hugo-universal-theme"
