@@ -1,7 +1,7 @@
 ---
 title: "Inicio"
 date: 2018-02-06T07:41:57+01:00
-draft: true
+draft: false
 ---
 
 ## Ciencia de datos en Español ##
