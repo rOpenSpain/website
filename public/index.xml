@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Feb 2018 07:41:57 +0100</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inicio</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Tue, 06 Feb 2018 07:41:57 +0100</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>Ciencia de datos en Español Imagino que la gran mayoría de vosotros sois conocedores del proyecto https://ropensci.org/.
+Con su lema: &amp;ldquo;Transformar la ciencia a través de los datos abiertos y el software&amp;rdquo;, la iniciativa pretende fomentar los métodos de investigación transparentes fundamentalmente a través del uso de sofware libre y los datos abiertos. Con algunos años de trabajo, han conseguido un respetable número de paquetes en R para ello.</description>
+    </item>
+    
+  </channel>
+</rss>
