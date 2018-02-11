@@ -1,18 +1,4 @@
-{{ if isset .Site.Params "empezamos" }}
-{{ if .Site.Params.empezamos.enable }}
-{{ if gt (len .Site.Data.empezamos) 0 }}
-<section class="bar background-white">
-    <div class="container">
-        {{ range $index, $element := sort .Site.Data.empezamos "weight" }}
-		{{ if eq (mod $index 3) 0 }}
-		<div class="col-md-12">
-            <div class="row">
-		{{ end }}
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
-                            <i class="{{ .icon }}"></i>
-                        </div>
+
                         ## Ciencia de datos en Español ##
 
 Imagino que la gran mayoría de vosotros sois conocedores del proyecto <https://ropensci.org/>.
@@ -31,18 +17,3 @@ Si tienes una iniciativa, de software o de datos, que consideras que encuentra c
 Los interesados pueden mandar un correo a: ![](../images/emilio.PNG)
 
 ¡Empezamos!
-
-
-
-                    </div>
-                </div>
-		{{ if or (eq (mod $index 3) 2) (eq $index (sub (len $.Site.Data.empezamos) 1 )) }}
-			</div>
-		</div>
-		{{ end }}
-        {{ end }}
-    </div>
-</section>
-{{ end }}
-{{ end }}
-{{ end }}
