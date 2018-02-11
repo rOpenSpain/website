@@ -6,7 +6,7 @@ keywords = ["FAQ","How do I","questions","what if"]
 
 
 
-## 1. ¿QUIENES SOMOS?
+## ¿Quiénes somos?
 
 Somos un grupo de gente de muy diversas profesiones y orígenes, que utilizamos R de manera cotidiana para nuesto trabajo diario. Entre nosotros hay matemáticos, ingenieros, psicómetras....y todos unidos por una pasión común: Trabajar con R
 
@@ -19,7 +19,7 @@ Nuestros pilares fundamentales son:
 * Colaboración
 * R (por supuesto!)
 
-## 2. ¿CÓMO PUEDO COLABORAR?
+## ¿Cómo puedo colaborar?
 
 Todas las colaboraciones son bienvenidas. Este es un proyecto realizado por la comunidad, para la comunidad, pensando en la comunidad.
 
