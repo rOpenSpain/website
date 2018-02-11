@@ -64,7 +64,7 @@ paginate = 10
     defaultDescription = "rOpenSci is our form, Spanish public data our matter"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+   # googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "violet"
