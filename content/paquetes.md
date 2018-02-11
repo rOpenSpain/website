@@ -1,6 +1,5 @@
 +++
 title = "Paquetes"
-layout = "single"
 description = "Lista de paquetes de rOpenSpain"
 keywords = ["paquetes", "rOpenSpain"]
 +++
