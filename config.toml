@@ -54,7 +54,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:hola@ropenspain.com"
+    url = "mailto:hola@ropenspain.es"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
@@ -82,7 +82,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "hola@ropenspain.com"
+    email = "hola@ropenspain.es"
 
     about_us = "<p>rOpenSci is our form, Spanish public data our matter.</p>"
     copyright = "Copyright (c) 2018, rOpenSpain; all rights reserved."
