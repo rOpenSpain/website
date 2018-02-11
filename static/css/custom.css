@@ -1,0 +1,12 @@
+.navbar-brand img {
+  height: 47px;
+}
+
+.home-carousel img {
+  margin-left: 150px;
+  height: 300px;
+}
+
+textarea.form-control {
+  height: 150px;
+}
