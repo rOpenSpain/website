@@ -6,7 +6,6 @@
     <description>Recent content in R on rOpenSpain</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <copyright>Copyright (c) 2018, rOpenSpain; all rights reserved.</copyright>
     <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +17,9 @@
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/2018/02/11/2018-02-11-empezamos/</guid>
-      <description>Ciencia de datos en Español Imagino que la gran mayoría de vosotros sois conocedores del proyecto https://ropensci.org/.
-Con su lema: &amp;ldquo;Transformar la ciencia a través de los datos abiertos y el software&amp;rdquo;, la iniciativa pretende fomentar los métodos de investigación transparentes fundamentalmente a través del uso de sofware libre y los datos abiertos. Con algunos años de trabajo, han conseguido un respetable número de paquetes en R para ello.</description>
+      <description>Imagino que la gran mayoría de vosotros sois conocedores del proyecto https://ropensci.org/.
+Con su lema: &amp;ldquo;Transformar la ciencia a través de los datos abiertos y el software&amp;rdquo;, la iniciativa pretende fomentar los métodos de investigación transparentes fundamentalmente a través del uso de sofware libre y los datos abiertos. Con algunos años de trabajo, han conseguido un respetable número de paquetes en R para ello.
+Desde nuestro punto de vista, nosotros, un grupo de entusiastas de R, pensamos que la iniciativa merece nuestro apoyo, y diríamos aún más: merece un apoyo específico y adaptado al dato Español.</description>
     </item>
     
   </channel>

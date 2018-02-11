@@ -27,20 +27,25 @@ paginate = 10
     weight = 2
 
 [[menu.main]]
+    name = "documentación"
+    url  = "/docs/"
+    weight = 3
+
+[[menu.main]]
     name = "blog"
     url  = "/blog/"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "faq"
     identifier = "faq"
     url  = "/faq/"
-    weight = 4
+    weight = 5
 
 [[menu.main]]
     name = "contacto"
     url  = "/contact/"
-    weight = 5
+    weight = 6
 
 # Top bar social links menu
 
