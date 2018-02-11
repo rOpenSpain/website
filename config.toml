@@ -5,7 +5,7 @@ languageCode = "es-es"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "es"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "rOpenSpain"
+#disqusShortname = "rOpenSpain"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -95,8 +95,8 @@ paginate = 10
         <br>España
       </p>
       """
-    latitude = ""
-    longitude = ""
+    latitude = "40.4185733"
+    longitude = "-3.705467"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -104,7 +104,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contacta con nosotros a través del formulario o nuestra cuenta de correo holao@ropenspain.es</p>
+    text = """<p class="hidden-sm hidden-xs">Contacta con nosotros a través del formulario o nuestra cuenta de correo hola@ropenspain.es</p>
       <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
       """
