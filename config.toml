@@ -1,9 +1,16 @@
-baseURL = "http://ropenspain.es/"
-languageCode = "es-es"
+baseurl = "/"
 title = "rOpenSpain"
 theme = "hugo-universal-theme"
+languageCode = "es-es"
+# Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "es"
+# Enable comments by entering your Disqus shortname
+disqusShortname = "rOpenSpain"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
 
+# Define the number of posts per page
+paginate = 10
 
 [menu]
 
@@ -47,27 +54,49 @@ defaultContentLanguage = "es"
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:hola@ropenspain.es"
+    url = "mailto:hola@ropenspain.com"
     pre = "<i class='fa fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
     author = "rOpenSpain"
-    defaultKeywords = ["rOpenSpain", "R", "rstats"]
+    defaultKeywords = ["Data", "rstats", "Open"]
     defaultDescription = "rOpenSci is our form, Spanish public data our matter"
+
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "violet"
 
-    about_us = "<p>rOpenSci is our form, Spanish public data our matter</p>"
-    copyright = "Copyright () 2018, rOpenSpain; all rights reserved."
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "hola@ropenspain.com"
+
+    about_us = "<p>rOpenSci is our form, Spanish public data our matter.</p>"
+    copyright = "Copyright (c) 2018, rOpenSpain; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "images/logo.png"
-    address = """<p><strong>rOpenSpain</strong></p>"""
-    
+    logo = "img/logo.png"
+    address = """<p><strong>rOpenSpain</strong>
+        <br>España
+      </p>
+      """
+    latitude = ""
+    longitude = ""
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -75,14 +104,14 @@ defaultContentLanguage = "es"
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on hola@ropenspain.es</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+    text = """<p class="hidden-sm hidden-xs">Contacta con nosotros a través del formulario o nuestra cuenta de correo holao@ropenspain.es</p>
+      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
       </p>
       """
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = false
+    categories = true
     tags = true
     search = true
 
@@ -93,7 +122,7 @@ defaultContentLanguage = "es"
     # For more informtion take a look at the README.
 
 [params.features]
-    enable = false
+    enable = true
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
@@ -124,5 +153,5 @@ defaultContentLanguage = "es"
 
 [params.recent_posts]
     enable = true
-    title = "Lee nuestro blog"
+    title = "De nuestro blog"
     subtitle = "rOpenSci is our form, Spanish public data our matter"
