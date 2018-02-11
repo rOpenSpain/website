@@ -8,8 +8,6 @@ categories:
 tags: [R]
 ---
 
-## Ciencia de datos en Español ##
-
 Imagino que la gran mayoría de vosotros sois conocedores del proyecto <https://ropensci.org/>.
 
 Con su lema: "Transformar la ciencia a través de los datos abiertos y el software", la iniciativa pretende fomentar los métodos de investigación transparentes fundamentalmente a través del uso de sofware libre y los datos abiertos.
