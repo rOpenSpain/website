@@ -15,9 +15,9 @@ Creemos que existe en España una carencia fundamental en el fomento de las apli
 Nuestros pilares fundamentales son:
 
 * Datos abiertos
-* Open Source
+* _Open source_
 * Colaboración
-* R (por supuesto!)
+* R (¡por supuesto!)
 
 ## ¿Cómo puedo colaborar?
 
