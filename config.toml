@@ -126,8 +126,6 @@ paginate = 10
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
-[params.empezamos]
-    enable = true
 
 [params.testimonials]
     enable = false
