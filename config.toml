@@ -95,7 +95,7 @@ paginate = 10
     email = "hola@ropenspain.es"
 
     about_us = "<p>rOpenSci is our form, Spanish public data our matter.</p>"
-    copyright = "Copyright (c) 2018, rOpenSpain; all rights reserved."
+    copyright = "Copyright (c) 2018, rOpenSpain; licencia Creative Commons CC BY-NC-SA"
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
