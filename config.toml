@@ -105,8 +105,8 @@ paginate = 10
         <br>España
       </p>
       """
-    latitude = "40.4185733"
-    longitude = "-3.705467"
+    # latitude = "40.4185733"
+    # longitude = "-3.705467"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
