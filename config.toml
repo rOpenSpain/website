@@ -94,7 +94,9 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "hola@ropenspain.es"
 
-    about_us = "<p>rOpenSci is our form, Spanish public data our matter.</p>"
+    about_us = "<p>rOpenSci es una comunidad de entusiastas de R, de los datos abiertos y la reproducibilidad
+    que se reúne y organiza para crear paquetes de R de la máxima calidad para la explotación de datos españoles
+    de interés general.</p>"
     copyright = "Copyright (c) 2018, rOpenSpain; licencia Creative Commons CC BY-NC-SA"
 
     # Format dates with Go's time formatting
@@ -159,6 +161,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "De nuestro blog"
     subtitle = "rOpenSci is our form, Spanish public data our matter"

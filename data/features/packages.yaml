@@ -1,4 +1,9 @@
 weight: 10
-name: "Paquetes"
+name: "Software"
 icon: "fa fa-archive"
-description: "Puedes encontrar los paquetes que forman parte de rOpenSpain..."
+description: "El objetivo de rOpenSpain es crear [paquetes](paquetes) de la máxima calidad
+para explotar desde R
+automática y reproduciblemente todo tipo de **datos abiertos** disponibles en España.
+Encontrarás
+paquetes para acceder a datos del INE, del Catastro, del Instituto Geográfico
+Nacional, etc."
