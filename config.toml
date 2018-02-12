@@ -95,7 +95,7 @@ paginate = 10
     email = "hola@ropenspain.es"
 
     about_us = "<p>rOpenSci es una comunidad de entusiastas de R, de los datos abiertos y la reproducibilidad que se reúne y organiza para crear paquetes de R de la máxima calidad para la explotación de datos españoles de interés general.</p>"
-    copyright = "Copyright (c) 2018, rOpenSpain; licencia Creative Commons CC BY-NC-SA"
+    copyright = """Copyright (c) 2018, rOpenSpain; licencia <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>"""
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
