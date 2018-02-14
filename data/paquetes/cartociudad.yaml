@@ -1,0 +1,4 @@
+weight: 10
+name: "caRtociudad"
+icon: "fa fa-book"
+description: "Para consultar la API de [Cartociudad](http://www.cartociudad.es/visor/) ([más](https://github.com/rOpenSpain/caRtociudad))"

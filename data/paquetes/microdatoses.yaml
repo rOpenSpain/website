@@ -1,0 +1,4 @@
+weight: 10
+name: "MicroDatosEs"
+icon: "fa fa-archive"
+description: "Que permite importar a R varios tipos de [ficheros de microdatos del INE](http://www.ine.es/prodyser/microdatos.htm) ([más](https://github.com/rOpenSpain/MicroDatosEs))"

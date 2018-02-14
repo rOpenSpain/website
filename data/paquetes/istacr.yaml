@@ -1,0 +1,4 @@
+weight: 60
+name: "istacr"
+icon: "fa fa-group"
+description: "Para consultar la API del Instituto Canario de Estadística [más](https://github.com/rOpenSpain/istacr)"
