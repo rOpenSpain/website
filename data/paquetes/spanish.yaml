@@ -1,4 +1,4 @@
 weight: 50
-name: "Formación"
-icon: "fa fa-support"
+name: "spanish"
+icon: "fa fa-github"
 description: "Para el procesamiento de cierto tipo de información española: números, geocodificación catastral, etc. ([más](https://github.com/rOpenSpain/spanish))"

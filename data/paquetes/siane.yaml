@@ -1,4 +1,4 @@
 weight: 30
 name: "Siane"
-icon: "fa fa-comments"
+icon: "fa fa-github"
 description: "Para representar información estadística sobre los mapas del Instituto Geográfico Nacional ([más](https://github.com/rOpenSpain/Siane))"
