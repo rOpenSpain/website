@@ -8,9 +8,10 @@ keywords = ["FAQ","How do I","questions","what if"]
 
 ## ¿Quiénes somos?
 
-Somos un grupo de gente de muy diversas profesiones y orígenes, que utilizamos R de manera cotidiana para nuesto trabajo diario. Entre nosotros hay matemáticos, ingenieros, psicólogos... también trabajamos en diferentes áreas y sectores, desde los ámbitos formativos y universitarios, hasta el sector financiero o el desarrollo de software. Todos unidos por una pasión común: Trabajar con R
+Somos un grupo de gente de muy diversas profesiones y perfiles profesionales, que utilizamos R de manera cotidiana para nuesto trabajo diario. Entre nosotros hay matemáticos, ingenieros, psicólogos... 
+Trabajamos en diferentes áreas y sectores, desde los ámbitos formativos y universitarios, hasta el sector financiero o el desarrollo de software. Todos unidos por una pasión común: Trabajar con R
 
-Creemos que existe en España una carencia fundamental en el fomento de las aplicaciones de R a los datos abiertos, y queremos aportar nuestro granito de arena a que cada vez más gente conozca el gran trabajo que se hace en el mundo hispano en este área.
+Creemos que existe en España una carencia fundamental en este ámbito y que se debe incidir en el fomento de las aplicaciones de R a los datos abiertos. Nosotros queremos aportar nuestro granito de arena a que cada vez más gente conozca el gran trabajo que se hace en el mundo hispano en este área.
 
 Nuestros pilares fundamentales son:
 
