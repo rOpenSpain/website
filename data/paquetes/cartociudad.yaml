@@ -1,4 +1,4 @@
 weight: 10
 name: "caRtociudad"
-icon: "fa fa-book"
+icon: "fa fa-github"
 description: "Consulta la API de [Cartociudad](http://www.cartociudad.es/visor/), que proporciona servicios de geolocalización, rutas, mapas, etc. ([más](https://github.com/rOpenSpain/caRtociudad))"
