@@ -17,35 +17,30 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-    name = "inicio"
-    url  = "/"
+    name = "Paquetes"
+    url  = "/paquetes/"
     weight = 1
 
 [[menu.main]]
-    name = "paquetes"
-    url  = "/paquetes/"
+    name = "Documentación"
+    url  = "/docs/"
     weight = 2
 
 [[menu.main]]
-    name = "documentación"
-    url  = "/docs/"
+    name = "Blog"
+    url  = "/blog/"
     weight = 3
 
 [[menu.main]]
-    name = "blog"
-    url  = "/blog/"
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
     weight = 4
 
 [[menu.main]]
-    name = "faq"
-    identifier = "faq"
-    url  = "/faq/"
-    weight = 5
-
-[[menu.main]]
-    name = "contacto"
+    name = "Contacto"
     url  = "/contact/"
-    weight = 6
+    weight = 5
 
 # Top bar social links menu
 
