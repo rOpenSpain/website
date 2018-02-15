@@ -7,7 +7,7 @@ function netlifyContactForm() {
     var $form = $(this);
     $.post($form.attr("action"), $form.serialize()).then(function() {
       // Clear the form
-      $this[0].reset();
+      $form[0].reset();
 
       // Say everything was OK
       $('#contact-message')
