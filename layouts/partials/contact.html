@@ -15,7 +15,7 @@
 
               <div id="contact-message"></div>
 
-              <form class="contact-form" name="contact" netlify-honeypot="trampa-para-robots" netlify>
+              <form class="netlify-contact-form" name="contact" netlify-honeypot="trampa-para-robots" netlify>
                   <div class="hidden">
                       <label>Deja esto en blanco: <input name="trampa-para-robots"></label>
                   </div>
@@ -73,3 +73,5 @@
 </div>
 
 {{ partial "map.html" . }}
+
+<script src="{{ .Site.BaseURL }}js/contact.js"></script>
