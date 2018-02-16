@@ -24,3 +24,8 @@ Existen muchas fuentes de datos explotables por paquetes susceptibles de ser inc
 ### Incorporación de nuevos paquetes a rOpenSpain
 
 Finalmente, si eres el autor de algún paquete y deseas incorporarlo a rOpenSpain, encontrarás cómo hacerlo [aquí](onboarding).
+
+
+### Portal de rOpenSpain
+
+El portal de rOpenSpain está desarrollado con [Hugo](https://gohugo.io/) y alojado en [Netlify](https://www.netlify.com/). La [fuente del portal](https://github.com/rOpenSpain/website) está alojada en GitHub. 
