@@ -8,4 +8,4 @@ Los paquetes de rOpenSpain tienen un responsable (sea el autor original, sea alg
 
 Existen muchas fuentes de datos explotables por paquetes susceptibles de ser incorporados a rOpenSpain. Si tienes alguna idea y quieres hacer una propuesta de paquete, lee antes [esto](docs/propuestas.html).
 
-Finalmente, si eres el autor de algún paquete y deseas incorporarlo a rOpenSpain, encontrarás cómo hacerlo [aquí](docs/onboarding.html).
+Finalmente, si eres el autor de algún paquete y deseas incorporarlo a rOpenSpain, encontrarás cómo hacerlo [aquí](onboarding).
