@@ -2,5 +2,5 @@
 	path = themes/hugo-universal-theme
 	url = https://github.com/rOpenSpain/hugo-universal-theme
 [submodule "content/docs"]
-	path = content/docs
+	path = content/docs/onboarding
 	url = https://github.com/rOpenSpain/onboarding.git
