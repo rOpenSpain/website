@@ -5,6 +5,10 @@ id = "contact"
 
 # Queremos que colabores con nosotros
 
-Si eres un apasionado de los datos abiertos y conoces R, mándanos un correo, contacta con nosotros por [Twitter](https://twitter.com/rOpenSpain) o usando el formulario de contacto. Estamos deseando conocerte y hacer de los datos abiertos en España con R algo grande.
+Si eres un apasionado de los datos abiertos y conoces R y quieres colaborar en el desarrollo de rOpenSpain, tienes varias opciones:
 
-Todas las aportaciones son bienvenidas, lo único que buscamos es gente a la que le apasionen R y el trabajo con datos abiertos.
+* Síguenos por [Twitter](https://twitter.com/rOpenSpain) para estar al tanto de las novedades.
+* Súmate a [nuestro canal de Slack](https://ropenspain.slack.com/?redir=%2Fadmin%2Fshared_invites).
+* Mándanos un correo directamente o, mejor, usando el formulario de contacto. 
+
+Estamos deseando conocerte y hacer de los datos abiertos en España con R algo grande, así que todas las aportaciones son bienvenidas.
