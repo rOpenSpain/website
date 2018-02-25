@@ -42,10 +42,9 @@ test_that("Test sum(4,16)",{
     - expect_error
     - expect_is
     
-- Una vez tengamos nuestros tests construidos, es muy sencillo ejecutarlos en nuestro código. La forma más simple es utilizando [usethis](https://github.com/r-lib/usethis). 
+- Una vez tengamos nuestros tests construidos, es muy sencillo ejecutarlos en nuestro código. La forma más simple es utilizando [usethis](https://github.com/r-lib/usethis). Asumiendo que estamos en el directorio donde tienes el código de tu paquete, simplemente ejecuta `usethis::use_test("test_sum")`
 
-- Asumiendo que estamos en el directorio donde tienes el código de tu paquete, simplemente ejecuta `usethis::use_test("test_sum")`
-  - Creando un archivo de testeo.
+- Creando un archivo de testeo.
   
   El archivo, que vamos a denominar *my_testing_suite.R* debe tener la siguiente estructura básica:
   ```
