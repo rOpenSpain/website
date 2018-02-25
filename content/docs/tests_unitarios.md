@@ -8,14 +8,14 @@ Recomendamos por tanto que tu código pase los correspondientes procesos de comp
 
 Os dejamos una breve guia muy simple de como usar estos paquetes:
 
-1. Descargar e instalar _testhat_ y _usethis_ (seguramente también necesitarás instalar algunas dependencias)
+- Descargar e instalar _testhat_ y _usethis_ (seguramente también necesitarás instalar algunas dependencias)
 
    ```
    install.packages("testhat")
    install.packages("usethis")
   
    ```
-2.  Imaginemos que estás escribiendo una función que suma dos números (por mor de la sencillez en el ejemplo) y la guardamos en un archivo llamado *sum.R*
+- Imaginemos que estás escribiendo una función que suma dos números (por mor de la sencillez en el ejemplo) y la guardamos en un archivo llamado *sum.R*
 
 ```
 sum <- function(n, m){
@@ -24,14 +24,14 @@ sum <- function(n, m){
 }
 ```
 
-3. Vemos que nuestro código funciona y seguimos programando, pero antes de continuar es muy buena idea construir un test unitario para nuestra función, porque estamos seguros de que vamos a seguir programando y alguno de los cambios o adiciones posteriores pueden provocar que nuestra función se comporte de manera inesperada. Para ello escribimos un archivo R de testeo denominado *test_sum.R* con el siguiente contenido (de nuevo, disculpad lo absurdo del ejemplo)
+- Vemos que nuestro código funciona y seguimos programando, pero antes de continuar es muy buena idea construir un test unitario para nuestra función, porque estamos seguros de que vamos a seguir programando y alguno de los cambios o adiciones posteriores pueden provocar que nuestra función se comporte de manera inesperada. Para ello escribimos un archivo R de testeo denominado *test_sum.R* con el siguiente contenido (de nuevo, disculpad lo absurdo del ejemplo)
 
 ```
 test_that("Test sum(4,16)",{
   expect_equal(sum(4,16), 20)
 })
 ```
-4. Este tipo de comprobaciones sencillas se pueden efectuar para muy diversos resultados esperados gracias al paquete _testthat_, que posee **expectations** para muchos tipos de comprobaciones, a saber:
+- Este tipo de comprobaciones sencillas se pueden efectuar para muy diversos resultados esperados gracias al paquete _testthat_, que posee **expectations** para muchos tipos de comprobaciones, a saber:
   
     - expect_equal
     - expect_identical
@@ -42,9 +42,9 @@ test_that("Test sum(4,16)",{
     - expect_error
     - expect_is
     
-5. Una vez tengamos nuestros tests construidos, es muy sencillo ejecutarlos en nuestro código. La forma más simple es utilizando [usethis](https://github.com/r-lib/usethis). 
+- Una vez tengamos nuestros tests construidos, es muy sencillo ejecutarlos en nuestro código. La forma más simple es utilizando [usethis](https://github.com/r-lib/usethis). 
 
-  - Asumiendo que estamos en el directorio donde tienes el código de tu paquete, simplemente ejecuta `usethis::use_test("test_sum")`
+- Asumiendo que estamos en el directorio donde tienes el código de tu paquete, simplemente ejecuta `usethis::use_test("test_sum")`
   - Creando un archivo de testeo.
   
   El archivo, que vamos a denominar _my_testing_suite.R_ debe tener la siguiente estructura básica:
@@ -61,7 +61,7 @@ test_that("Test sum(4,16)",{
   Si estás usando RStudio, puedes presionars Cmd/Ctrl + Shift + T para ejecutar todos los tests que tengas en tu paquete.
 
 
-6. Para profundizar en este tema, recomendamos el capitulo dedicado a testeo unitario en el libro de Hadley Wickam: 
+- Para profundizar en este tema, recomendamos el capitulo dedicado a testeo unitario en el libro de Hadley Wickam: 
 
 http://r-pkgs.had.co.nz/tests.html
 
