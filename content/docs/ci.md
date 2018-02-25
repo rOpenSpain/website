@@ -8,7 +8,10 @@ La Integración Continua es una *metodología*, que permite que a través del c�
 
 Existen muchos servicios de este estilo, entre otros Jenkins, TeamCity, Continuum, solo por mencionar algunos, pero nosotros recomendamos el uso de [Travis CI](https://travis-ci.org/) para los paquetes R que desees alojar en rOpenSpain.
 
-Travis es una compañía Europea (Alemania) que provee integración continua gracias a su enlace directo con GitHub, de modo que un cambio en tu repositorio provocará la ejecución en Travis. Es un sistema muy sencillo de utilizar, y aunque Travis no considera R como uno de sus lenguajes principales, tan solo con dos clicks tendrás disponible su servicio. Veamos cómo:
+Travis es una compañía Europea (Alemania) que provee integración continua gracias a su enlace directo con GitHub, de modo que un cambio en tu repositorio provocará la ejecución en Travis. Es un sistema muy sencillo de utilizar, y aunque Travis no considera R como uno de sus lenguajes principales, tan solo con dos clicks tendrás disponible su servicio. 
+Pese a ser un servicio de pago, si tu código es _Open Source_ ofrecen de manera gratuita sus prestaciones.
+
+Veamos unas breves indicaciones de cómo usarlo:
 
 - Utiliza GitHub para el versionado de tu código
 - Crea un archivo en la raiz de tu repositorio con el siguiente contenido:
