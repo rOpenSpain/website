@@ -47,7 +47,7 @@ test_that("Test sum(4,16)",{
 - Asumiendo que estamos en el directorio donde tienes el código de tu paquete, simplemente ejecuta `usethis::use_test("test_sum")`
   - Creando un archivo de testeo.
   
-  El archivo, que vamos a denominar _my_testing_suite.R_ debe tener la siguiente estructura básica:
+  El archivo, que vamos a denominar *my_testing_suite.R* debe tener la siguiente estructura básica:
   ```
   library(testthat) 
 
