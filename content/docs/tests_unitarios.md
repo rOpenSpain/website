@@ -24,7 +24,7 @@ sum <- function(n, m){
 }
 ```
 
-- Vemos que nuestro código funciona y seguimos programando, pero antes de continuar es muy buena idea construir un test unitario para nuestra función, porque estamos seguros de que vamos a seguir programando y alguno de los cambios o adiciones posteriores pueden provocar que nuestra función se comporte de manera inesperada. Para ello escribimos un archivo R de testeo denominado *test_sum.R* con el siguiente contenido (de nuevo, disculpad lo absurdo del ejemplo)
+- Vemos que nuestro código funciona y seguimos programando, pero antes de continuar es muy buena idea construir un test unitario para nuestra función, porque estamos seguros de que alguno de los cambios o adiciones posteriores pueden provocar que nuestra función se comporte de manera inesperada. Para ello escribimos un archivo R de testeo denominado *test_sum.R* con el siguiente contenido (de nuevo, disculpad lo absurdo del ejemplo)
 
 ```
 test_that("Test sum(4,16)",{
