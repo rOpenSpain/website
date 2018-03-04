@@ -29,7 +29,7 @@ Si quieres profundizar en el tema, sigue el siguiente enlace de la documentació
 
 
   - Haz un _fork_ del repositorio con el que deseas contribuir haciendo click en el botón de la cabecera del repositorio. Deberás haber hecho _login_ en tu cuenta de GitHub.
-  - Cuando esté completado se abrirá la página con tu copia del repositorio bifurcado, pero de momento solo existe en GitHub. Deberás **clonarlo:: en tu equipo local.
+  - Cuando esté completado se abrirá la página con tu copia del repositorio bifurcado, pero de momento solo existe en GitHub. Deberás _clonarlo_ en tu equipo local.
   - Ahora puedes realizar los cambios editando el código o la documentación en el repositorio clonado a partir del _fork_
   - Cuando estés satisfecho con los cambios, sigue el procedimiento normal de trabajo con _commit_ y _stage_ .
   - En el momento en que tus cambios sean completos, y corrijan o mejoren la característica que tenías pensado aportar, ya sea código o documentación, puedes hacer _push_ al repositorio.
