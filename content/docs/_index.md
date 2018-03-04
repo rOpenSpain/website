@@ -18,12 +18,12 @@ Los paquetes de rOpenSpain tienen un responsable (sea el autor original, sea alg
 
 ### Propuestas de paquetes
 
-Existen muchas fuentes de datos explotables por paquetes susceptibles de ser incorporados a rOpenSpain. Si tienes alguna idea y quieres hacer una propuesta de paquete, lee antes [esto](propuestas).
+Existen muchas fuentes de datos explotables por paquetes susceptibles de ser incorporados a rOpenSpain. Si tienes alguna idea y quieres hacer una propuesta de paquete, mándanos un mensaje a través del [formulario de contacto](https://ropenspain.netlify.com/contact/), o únete a [https://join.slack.com/t/ropenspain/shared_invite/enQtMzE2MTY4MjQxMjE5LWRkYWU4NzI1OWIzYmE1NWUzNDUwZDRiZDdkNTkwNDFkMTllMzQwM2JhMDQ4MmViNTgyNWNjY2Q0MzI5ZTc0ODA](nuestro canal de slack), y trataremos de ayudarte a que esa idea sea realidad.
 
 
 ### Incorporación de nuevos paquetes a rOpenSpain
 
-Finalmente, si eres el autor de algún paquete y deseas incorporarlo a rOpenSpain, encontrarás cómo hacerlo [aquí](onboarding).
+Finalmente, si eres el autor de algún paquete y deseas incorporarlo a rOpenSpain, tan solo tienes que mandarnos un mensaje a través de nuestro [formulario de contacto](https://ropenspain.netlify.com/contact/).
 
 
 ### Portal de rOpenSpain
