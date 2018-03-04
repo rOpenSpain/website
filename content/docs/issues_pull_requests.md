@@ -25,7 +25,7 @@ Si quieres profundizar en el tema, sigue el siguiente enlace de la documentació
 
 
 
-### Breve guía para hacer Pull Request ###
+### Breve guía para hacer _Pull Request_ ###
 
 
   - Haz un _fork_ del repositorio con el que deseas contribuir haciendo click en el botón de la cabecera del repositorio. Deberás haber hecho _login_ en tu cuenta de GitHub.
