@@ -14,7 +14,7 @@ Pese a ser un servicio de pago, si tu código es _Open Source_ ofrecen de manera
 Veamos unas breves indicaciones de cómo usarlo:
 
 - Utiliza GitHub para el versionado de tu código
-- Crea un archivo en la raiz de tu repositorio con el siguiente contenido:
+- Crea un archivo en la raíz de tu repositorio con el siguiente contenido:
 
 ```
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r

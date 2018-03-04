@@ -11,13 +11,13 @@ Recomendamos nombres cortos y descriptivos en minúsculas. Si tu paquete tiene v
 ## Nombres de funciones y sintaxis general
 
 
-* Recomendamos el uso de `snake_case` en términos generales sobre otros estilos a menos que estés aportando otro paquete que ya est en uso.
+* Recomendamos el uso de `snake_case` en términos generales sobre otros estilos a menos que estés aportando otro paquete que ya esté en uso.
 
 * Evita siempre conflictos de nombres entre tus funciones y las de los paquetes de base de R. También evita este conflicto con otros paquetes populares como `ggplot2`, `dplyr`, `magrittr` o `data.table`. Si quieres que tu función se use, es mejor que no se llame igual que otra que ya existe.
 
-* Considera una nomenclatura de `objeto_verbo()` para funciones en tu paquerte que usen tipos de datos similares o interactúen con una API común. Por `objeto` nos referimos a los datos o al API y por `verbo` nos referimos a la acción principal de dicha función. Esto ayuda a evitar conflictos de nombres con paquetes que tengan similares verbos o funciones, haciendo el código más legible y fácil de autocompletar. Por poner un ejemplo, en **stringi**, todas las funciones que empiezan por `stri_` manipulan cadenas de texto (`stri_join()`, `stri_sort()`, o en otyro caso, el paquete **googlesheets** ofrece funciones que comienzan por `gs_` y que son llamadas a la API de Google Sheets (`gs_auth()`, `gs_user()`, `gs_download()`).
+* Considera una nomenclatura de `objeto_verbo()` para funciones en tu paquete que usen tipos de datos similares o utilicen una API común. Por `objeto` nos referimos a los datos o al API y por `verbo` nos referimos a la acción principal de dicha función. Esto ayuda a evitar conflictos de nombres con paquetes que tengan similares verbos o funciones, haciendo el código más legible y fácil de autocompletar. Por poner un ejemplo, en **stringi**, todas las funciones que empiezan por `stri_` manipulan cadenas de texto (`stri_join()`, `stri_sort()`, o en otyro caso, el paquete **googlesheets** ofrece funciones que comienzan por `gs_` y que son llamadas a la API de Google Sheets (`gs_auth()`, `gs_user()`, `gs_download()`).
 
-* Las funciones que manipulan un objeto o dato concreto y retornan un objeto o dato del mismo tipo recomendamos que lleven como primer argumento dicho dato u objeto. De este modo ganars compatibilidad con el operador tubera (pipe) de magrittr (`%>%`)
+* Las funciones que manipulan un objeto o dato concreto y retornan un objeto o dato del mismo tipo recomendamos que lleven como primer argumento dicho dato u objeto. De este modo ganarás compatibilidad con el operador tubería (pipe) de magrittr (`%>%`)
 
 * Para más información sobre cómo adaptar estilos de código, funciones y scripts en R, recomendamos la lectura del capítulo dedicado a este tema en el conocido [libro de Hadley Wickam](http://r-pkgs.had.co.nz/r.html).
 
@@ -26,12 +26,12 @@ Recomendamos nombres cortos y descriptivos en minúsculas. Si tu paquete tiene v
 
 * Todas las funciones exportadas de un paquete deben ser extensamente documentadas incluyendo ejemplos claros.
 
-* El paquete debe de incluir documentación global que se pueda ver con la llamada a la función `?foobar`, (o `?foobar-paquete` si hay un caso de conflicto de nombres). Opcionalmente podras usar ambos comandos para el fichero del manual, utilizando `?foobar` y `?foobar-paquete` mediante etiquetas roxygen de tipo `@aliases`.
+* El paquete debe de incluir documentación global que se pueda ver con la llamada a la función `?foobar`, (o `?foobar-paquete` si hay un caso de conflicto de nombres). Opcionalmente podrás usar ambos comandos para el fichero del manual, utilizando `?foobar` y `?foobar-paquete` mediante etiquetas roxygen de tipo `@aliases`.
 
 * El paquete debe de contener como mínimo una viñeta que provea una introducción a las funciones principales y casos de uso sencillos.
 
-* Igual que en el caso del archivo README, la documentación de nivel superior o las viñetas deben ser el principal punto de entrada para los usuarios. Si tu paquete conecta a una fuente de datos externa o a un servicio online, o si envuelve otro software externo, debe de proveer suficiente información al usuario para comprender la naturaleza de el dato, el servicio, el software utilizado, etcétera. Asímismo debe proveer de enlaces a cualquier información relevante.
-Por ejemplo, una viñeta no debería solamente decir cosas como: "ofrece acceso al servicio web del ..." sino que también debe de incluir un repositorio de los diferentes servicios que el citado servicio online provee, información general sobre su funcionamiento, la documentación de la estructura de los datos accedidos y sus metadatos, todo ello accesible mediante enlaces visibles.                      
+* Igual que en el caso del archivo README, la documentación de nivel superior o las viñetas deben ser el principal punto de entrada para los usuarios. Si tu paquete conecta a una fuente de datos externa o a un servicio online, o si envuelve otro software externo, debe de proveer suficiente información al usuario para comprender la naturaleza de el dato, el servicio, el software utilizado, etcétera. Así mismo debe proveer de enlaces a cualquier información relevante.
+Por ejemplo, una viñeta no debería solamente decir cosas como: "ofrece acceso al servicio web del ..." sino que también debe de incluir un repositorio de los diferentes servicios que el citado servicio online provee, información general sobre su funcionamiento, la documentación de la estructura de los datos y sus metadatos, todo ello accesible mediante enlaces visibles.                      
 
 * Recomendamos encarecidamente que todos los paquetes tengan `roxygen2` como método de documentación fundamental.  `roxygen2` es [un paquete R](http://cran.r-project.org/web/packages/roxygen2/index.html) cuya función principal es compilar  los ficheros `.Rd` en el directorio `man` del paquete, con sencillas etiquetas añadidas sobre cada función.
 
@@ -51,7 +51,7 @@ El archivo `DESCRIPTION` de un paquete debe listar a sus autores y contribuyente
     comment = "María revisó el paquete para rOpenSpain, ver <https://github.com/rOpenSpain/onboarding/issues/116>"),
 ```
 
-Solamente debes incluir los revisores si previamente te han dado su consentimiento. Debes tener en cuenta que 'rev' lanzará una   CRAN NOTE a menos que el paquete se compile utilizando R v3.5 (r-devel desde 2017-09-21).
+Solamente debes incluir los revisores si previamente te han dado su consentimiento. Debes tener en cuenta que 'rev' lanzará una CRAN NOTE a menos que el paquete se compile utilizando R v3.5 (r-devel desde 2017-09-21).
 
 Por favor no liste editores como contribuyentes. Tu participación y tu contribución a rOpenSpain nos parece un gran aporte que consideramos como un agradecimiento suficiente hacia este proyecto. 🙂
 
@@ -65,7 +65,7 @@ Por favor no liste editores como contribuyentes. Tu participación y tu contribu
 
 * `testthat` tiene una función denominada `skip_on_cran()` que puedes utilizar para que no corran los tests en CRAN. Recomendamos usarlo en todas las  funciones que incluyen llamadas a APIs externas que tienen bastantes probabilidades de fallar en CRAN. Estos tests seguirán corriendo en Travis sin embargo.
 
-* Comprueba la extensión de la cobertura de tus tests con el paquete [**covr**](https://github.com/jimhester/covr). Incluyendo una insignia o distintivo (badge) con la cobertura de los tests en tu README haces más facil que los revisores vean en qué extensión están testeadas las funciones de tu paquete. No se requiere cobertura al 100%, pero los editores y los revisores utilizarán los informes de cobertura como punto de partida para evaluar si tus test cubren las funcionalidades principales.
+* Comprueba la extensión de la cobertura de tus tests con el paquete [**covr**](https://github.com/jimhester/covr). Incluyendo una insignia o distintivo (badge) con la cobertura de los tests en tu README haces más fácil que los revisores vean en qué extensión están testadas las funciones de tu paquete. No se requiere cobertura al 100%, pero los editores y los revisores utilizarán los informes de cobertura como punto de partida para evaluar si tus test cubren las funcionalidades principales.
 
 * Aún usando [integración continua](#ci), recomendamos que se corran los tests de manera local antes de enviarnos el paquete, ya que sabemos que muchos tests a veces son soslayados. (Podrías necesitar el ajuste de `Sys.setenv(NOT_CRAN="true")` para asegurarte de que se ejecuten todos.) Además recomendamos que antes de enviarnos tu paquete uses las buenas prácticas que propone [**Gabor Csardi**](https://github.com/MangoTheCat/goodpractice/) en su paquete y ejecutar `devtools::spell_check()` para encontrar errores de escritura en la documentación.
 
@@ -80,7 +80,7 @@ Por favor no liste editores como contribuyentes. Tu participación y tu contribu
 
 * Usa `Imports` en lugar de `Depends` para paquetes que provean funciones de otros paquetes. Asegúrate de listar los paquetes utilizados en los tests (`testthat`), y la documentación (`knitr`, `roxygen2`)  en la sección `Suggests` de las dependencias. Si usas cualquier otro paquete en los ejemplos, asegúrate también de listarlos si no están mencionados en otro lugar, en la sección `Enhances`.
 
-* Para la mayora de los casos donde expones funciones de dependencias al usuario deberas importar y re-exportar las funciones concretas en lugar de simplemente mencionarlas en el campo `Depends`. Por ejemplo, si las funciones en tu paquete producen objetos de un tipo concreto que usas para hacer gráficos, deberas re-exportar solamente las dunciones que imprimen o dibujan los gráficos en lugar del paquete entero.
+* Para la mayoría de los casos donde expones funciones de dependencias al usuario deberas importar y re-exportar las funciones concretas en lugar de simplemente mencionarlas en el campo `Depends`. Por ejemplo, si las funciones en tu paquete producen objetos de un tipo concreto que usas para hacer gráficos, deberas re-exportar solamente las funciones que imprimen o dibujan los gráficos en lugar del paquete entero.
 
 
 ## Enlaces recomendados
@@ -90,4 +90,4 @@ Por favor no liste editores como contribuyentes. Tu participación y tu contribu
 
 * [Writing R Extensions](https://cran.r-project.org/doc/manuals/r-release/R-exts.html) es el libro canónico y más actualizado sobre el proceso de creación de paquetes para R.
 
-* Si añades un paquete a rOpenSpain a través del [repositorio onboarding](https://github.com/rOpenSpain/onboarding), puedes enviar tus cuestiones al equipo rector de rOpenSpain en el issue tracker, o a través de nuestro formulario de contacto.
+* Si añades un paquete a rOpenSpain puedes enviar tus cuestiones al equipo rector de rOpenSpain en el issue tracker, o a través de nuestro formulario de contacto.

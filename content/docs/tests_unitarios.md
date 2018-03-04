@@ -6,7 +6,7 @@ Desde rOpenSpain estamos comprometidos con la calidad del software que se produc
 
 Recomendamos por tanto que tu código pase los correspondientes procesos de comprobación/validación con paquetes como _testhat_ que permiten construir tests de prueba de manera paralela al código. Es una buena práctica construir los tests antes de empezar a programar, así podrás ver en todo momento si tu código da los resultados deseados. Como acompañante de [testthat](https://cran.r-project.org/web/packages/testthat/index.html) recomendamos el uso del paquete [usethis](https://cran.r-project.org/web/packages/usethis/index.html)
 
-Os dejamos una breve guia muy simple de como usar estos paquetes:
+Os dejamos una breve guía muy simple de como usar estos paquetes:
 
 - Descargar e instalar _testhat_ y _usethis_ (seguramente también necesitarás instalar algunas dependencias)
 
@@ -55,13 +55,11 @@ test_that("Test sum(4,16)",{
   test_results <- test_dir("path/to/tests", reporter="summary")
   ```
   
-  La ejecución de este archivo, dispara la comprobación de todos los tests que hayamos escrito y que estén contenidos en él, entregando un reporte completo de los resultados, tanto positivos como negativos.
+  La ejecución de este archivo, dispara la comprobación de todos los tests que hayamos escrito y que estén contenidos en él, entregando un reporte completo de los resultados, tanto si dan resultados positivos como negativos.
   
-  Si estás usando RStudio, puedes presionars Cmd/Ctrl + Shift + T para ejecutar todos los tests que tengas en tu paquete.
+  Si estás usando RStudio, puedes presionar `Cmd/Ctrl + Shift + T` para ejecutar todos los tests que tengas en tu paquete.
 
 
-- Para profundizar en este tema, recomendamos el capitulo dedicado a testeo unitario en el libro de Hadley Wickam: 
-
-http://r-pkgs.had.co.nz/tests.html
+- Para profundizar en este tema, recomendamos el capitulo dedicado a testeo unitario en el libro de Hadley Wickam en http://r-pkgs.had.co.nz/tests.html
 
 
