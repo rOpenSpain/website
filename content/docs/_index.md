@@ -8,12 +8,14 @@ Todos tenemos nuestro estilo de programación. Pero en un proyecto colaborativo 
 
 ### Test unitarios
 
-Para garantizar la calidad de los paquetes, es muy conveniente que cuenten con una colección extensa de [tests unitarios](tests_unitarios) y que utilicen mecanismos de [integración continua](ci).
+Para garantizar la calidad de los paquetes, es muy conveniente que cuenten con una colección extensa de [tests unitarios](tests_unitarios) y que utilicen mecanismos de [integración continua](ci). Haz click sobre los enlaces para encontrar más información.
 
 
 ### Cómo contribuir al desarrollo de paquetes
 
-Los paquetes de rOpenSpain tienen un responsable (sea el autor original, sea alguien a quien este delegó la tarea) que es el responsable último de incorporar los cambios de la comunidad al paquete. Lo mismo ocurre con la misma página de rOpenSpain, que se desarrolla también a través de GitHub. Los colaboradores pueden participar en el desarrollo a través de _issues_ de GitHub y enviando _pull requests_. El proceso está documentado [aquí](issues_pull_requests).
+Los paquetes de rOpenSpain tienen un responsable (sea el autor original, sea alguien a quien este delegó la tarea) que es el responsable último de incorporar los cambios de la comunidad al paquete. Lo mismo ocurre con la misma página de rOpenSpain, que se desarrolla también a través de GitHub. Los colaboradores pueden participar en el desarrollo a través de _issues_ de GitHub y enviando _pull requests_. 
+
+El proceso está documentado [aquí](issues_pull_requests).
 
 
 ### Propuestas de paquetes
@@ -29,3 +31,5 @@ Finalmente, si eres el autor de algún paquete y deseas incorporarlo a rOpenSpai
 ### Portal de rOpenSpain
 
 El portal de rOpenSpain está desarrollado con [Hugo](https://gohugo.io/) y alojado en [Netlify](https://www.netlify.com/). La [fuente del portal](https://github.com/rOpenSpain/website) está alojada en GitHub. 
+
+Si encuentras errores o quieres mejorar algunas partes del portal o la documentación, puedes hacerlo haciendo abriendo un [issue o pull request](issues_pull_requests)
