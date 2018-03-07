@@ -2,6 +2,18 @@
 title = "Guía de estilo de rOpenSpain"
 +++
 
+## Mensajes de error
+
+Usa message() y warning() para lanzar mensajes al usuario que usa tus funciones. Por favor, no uses print() o cat() a menos que el cometido sea utilizar un método de impresión por pantalla dado que son más difíciles de ignorar por parte de los usuarios.
+
+## Paquetes recomendados
+
+Además de los ya recomendados en el resto de apartados (_roxygen2, usethis, testthat_), recomendamos los siguientes:
+
+  - Para peticiones http es mejor usar **httr** en lugar de **RCurl**.
+  - Para el procesamiento de JSON, usa **jsonlite** en lugar de **rjson** o **RJSONIO**.
+  - Para el procesado, creación y manipulación de XML, recomendamos el uso de **xml2** en términos generales.
+
 ## Nombres de paquetes
 
 Recomendamos nombres cortos y descriptivos en minúsculas. Si tu paquete tiene vinculaciones con servicios comerciales por favor asegúrate de que no viola las leyes de propiedad intelectual, las marcas y patentes. Puedes comprobar si el nombre del paquete está ya utilizado con una búsqueda en CRAN https://cran.r-project.org/web/packages/available_packages_by_name.html y en el listado de paquetes R de GitHub http://rpkg.gepuro.net/
@@ -23,7 +35,6 @@ Recomendamos nombres cortos y descriptivos en minúsculas. Si tu paquete tiene v
 
 ## Documentación
 
-
 * Todas las funciones exportadas de un paquete deben ser extensamente documentadas incluyendo ejemplos claros.
 
 * El paquete debe de incluir documentación global que se pueda ver con la llamada a la función `?foobar`, (o `?foobar-paquete` si hay un caso de conflicto de nombres). Opcionalmente podrás usar ambos comandos para el fichero del manual, utilizando `?foobar` y `?foobar-paquete` mediante etiquetas roxygen de tipo `@aliases`.
@@ -42,7 +53,6 @@ Por ejemplo, una viñeta no debería solamente decir cosas como: "ofrece acceso 
 * Cuando utilizes `roxygen2`, añade `#' @noRd` a las funciones internas.
 
 ## Autoría
-
 
 El archivo `DESCRIPTION` de un paquete debe listar a sus autores y contribuyentes principales utilizando la sintaxis `Authors@R` para indicar sus roles (author/creator/contributor etc.) si ocurriese que hay mas de un autor. Puedes leer [esta sección del manual de R: "Writing R Extensions"](https://cran.rstudio.com/doc/manuals/r-release/R-exts.html#The-DESCRIPTION-file) para más detalles. Si crees que los revisores han hecho contribuciones sustanciales al desarrollo de tu paquete, puedes listarlos en el campo `Authors@R` asignándoles el tipo "revisor" (`"rev"`), por ejemplo así:
 
@@ -82,6 +92,16 @@ Por favor no liste editores como contribuyentes. Tu participación y tu contribu
 
 * Para la mayoría de los casos donde expones funciones de dependencias al usuario deberas importar y re-exportar las funciones concretas en lugar de simplemente mencionarlas en el campo `Depends`. Por ejemplo, si las funciones en tu paquete producen objetos de un tipo concreto que usas para hacer gráficos, deberas re-exportar solamente las funciones que imprimen o dibujan los gráficos en lugar del paquete entero.
 
+## Cosas a tener en cuenta
+
+Hay una serie de problemas comunes encontrados a la hora de publicar un paquete en CRAN. Tenlas en cuenta:
+
+  - Asegúrate de que el titulo está en _Title Case_.
+  - No pongas un punto al final del título.
+  - Evita comenzar el apartado de la descripción con el nombre del paquete o la expresión _Este paquete...._. Sé más informativo.
+  - Asegúrate de incluir enlaces a paginas web si haces _sraping_, usas APIs de terceros, etcétera en el campo **Description** del archivo _DESCRIPTION_ del paquete.
+  - Evita los tests y los ejemplos que tardan en ejecutarse porque CRAN rechazará tu paquete. Usa _testthat::skip_on_cran_ en los tests para evitar la ejecución de los que tardan demasiado pero deseas que se comprueben localmente o en entornos de CI como Travis (ver nuestra guía de integración continua).
+  - Inluye los archivos globales como _paper.md_ o _.travis.yml_ en el _.Rbuildignore_.
 
 ## Enlaces recomendados
 
