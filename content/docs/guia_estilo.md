@@ -100,7 +100,7 @@ Hay una serie de problemas comunes encontrados a la hora de publicar un paquete 
   - No pongas un punto al final del título.
   - Evita comenzar el apartado de la descripción con el nombre del paquete o la expresión _Este paquete...._. Sé más informativo.
   - Asegúrate de incluir enlaces a paginas web si haces _sraping_, usas APIs de terceros, etcétera en el campo **Description** del archivo _DESCRIPTION_ del paquete.
-  - Evita los tests y los ejemplos que tardan demasiado en ejecutarse orealizan llamadas a APIs externas que son lentas porque CRAN rechazará tu paquete. Usa **testthat::skip_on_cran** en los tests para evitar la ejecución de los que tardan demasiado pero deseas que se comprueben localmente o en entornos de CI como Travis (ver nuestra [Guía de integración continua](#ci)).
+  - Evita los tests y los ejemplos que tardan demasiado en ejecutarse o realizan llamadas a APIs externas que son lentas porque CRAN rechazará tu paquete. Usa **testthat::skip_on_cran** en los tests para evitar la ejecución de los que tardan demasiado pero deseas que se comprueben localmente o en entornos de CI como Travis (ver nuestra [Guía de integración continua](#ci)).
   - Inluye los archivos globales como _paper.md_ o _.travis.yml_ en el _.Rbuildignore_.
 
 ## Enlaces recomendados
