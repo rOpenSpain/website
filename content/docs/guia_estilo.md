@@ -4,11 +4,11 @@ title = "Guía de estilo de rOpenSpain"
 
 ## Mensajes de error
 
-Usa message() y warning() para lanzar mensajes al usuario que usa tus funciones. Por favor, no uses print() o cat() a menos que el cometido sea utilizar un método de impresión por pantalla dado que son más difíciles de ignorar por parte de los usuarios.
+Usa _message()_ y _warning()_ para lanzar mensajes al usuario que usa tus funciones. Por favor, no uses _print()_ o _cat()_ a menos que el cometido sea utilizar un método de impresión por pantalla dado que son más difíciles de suprimir por parte de los usuarios en caso de que lo deseen.
 
 ## Paquetes recomendados
 
-Además de los ya recomendados en el resto de apartados (_roxygen2, usethis, testthat_), recomendamos los siguientes:
+Además de los ya recomendados en el resto de apartados (_roxygen2, usethis, knitr, testthat_), recomendamos los siguientes:
 
   - Para peticiones http es mejor usar **httr** en lugar de **RCurl**.
   - Para el procesamiento de JSON, usa **jsonlite** en lugar de **rjson** o **RJSONIO**.
@@ -100,7 +100,7 @@ Hay una serie de problemas comunes encontrados a la hora de publicar un paquete 
   - No pongas un punto al final del título.
   - Evita comenzar el apartado de la descripción con el nombre del paquete o la expresión _Este paquete...._. Sé más informativo.
   - Asegúrate de incluir enlaces a paginas web si haces _sraping_, usas APIs de terceros, etcétera en el campo **Description** del archivo _DESCRIPTION_ del paquete.
-  - Evita los tests y los ejemplos que tardan en ejecutarse porque CRAN rechazará tu paquete. Usa _testthat::skip_on_cran_ en los tests para evitar la ejecución de los que tardan demasiado pero deseas que se comprueben localmente o en entornos de CI como Travis (ver nuestra guía de integración continua).
+  - Evita los tests y los ejemplos que tardan demasiado en ejecutarse orealizan llamadas a APIs externas que son lentas porque CRAN rechazará tu paquete. Usa **testthat::skip_on_cran** en los tests para evitar la ejecución de los que tardan demasiado pero deseas que se comprueben localmente o en entornos de CI como Travis (ver nuestra [Guía de integración continua](#ci)).
   - Inluye los archivos globales como _paper.md_ o _.travis.yml_ en el _.Rbuildignore_.
 
 ## Enlaces recomendados
