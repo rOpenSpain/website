@@ -16,7 +16,7 @@ Además de los ya recomendados en el resto de apartados (_roxygen2, usethis, kni
 
 ## Nombres de paquetes
 
-Recomendamos nombres cortos y descriptivos en minúsculas. Si tu paquete tiene vinculaciones con servicios comerciales por favor asegúrate de que no viola las leyes de propiedad intelectual, las marcas y patentes. Puedes comprobar si el nombre del paquete está ya utilizado con una búsqueda en CRAN https://cran.r-project.org/web/packages/available_packages_by_name.html y en el listado de paquetes R de GitHub http://rpkg.gepuro.net/
+Recomendamos nombres cortos y descriptivos en minúsculas. Si tu paquete tiene vinculaciones con servicios comerciales por favor asegúrate de que no viola las leyes de propiedad intelectual, las marcas y patentes. Puedes comprobar si el nombre del paquete está ya utilizado con una búsqueda en el [listado completo de paquetes de CRAN](https://cran.r-project.org/web/packages/available_packages_by_name.html), en el [listado de paquetes R de GitHub](http://rpkg.gepuro.net/) o el buscador de paquetes y funciones de https://www.rdocumentation.org
 
 ¡También puedes usar el paquete [`available`](https://github.com/ropenscilabs/available) y hacerlo con R!
 
