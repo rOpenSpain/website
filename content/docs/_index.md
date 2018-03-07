@@ -29,7 +29,8 @@ Finalmente, si eres el autor de algún paquete y deseas incorporarlo a rOpenSpai
 
 ### Normativa
 
-En rOpenSpain tenemos una normativa. Puedes consultarla aquí
+En rOpenSpain tenemos una normativa y un código de conducta. Puedes consultarlos [aquí](normativa).
+
 ### Portal de rOpenSpain
 
 El portal de rOpenSpain está desarrollado con [Hugo](https://gohugo.io/) y alojado en [Netlify](https://www.netlify.com/). La [fuente del portal](https://github.com/rOpenSpain/website) está alojada en GitHub. 
