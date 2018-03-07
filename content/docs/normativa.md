@@ -5,7 +5,7 @@ title: Normativa de rOpenSpain
 ## Propuesta de nuevos paquetes
 
 - Para que un paquete sea considerado para su inclusión en rOpenSpain, el
-  mantenedor del paquete debe contactar a través de nuestro canal de Slack.
+  mantenedor del paquete debe contactar a través de [nuestro canal de Slack].
 - Un miembro de rOpenSpain actuará como editor y asignará un revisor para
   continuar con el proceso posterior.
 - Los paquetes se revisan para comprobar que su inclusión se adecua a los
