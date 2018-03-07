@@ -10,7 +10,7 @@ title: Normativa de rOpenSpain
   continuar con el proceso posterior.
 - Los paquetes se revisan para comprobar que su inclusión se adecua a los
   objetivos del proyecto, y para cumplir unos mínimos estándares de calidad,
-  claridad y documentación. Consulta las [directrices](directrices) para
+  claridad y documentación. Consulta nuestra [Guía de Estilo](https://ropenspain.es/docs/guia_estilo/) para
   paquetes para más información. Durante el proceso de revisión, que tiene
   lugar íntegramente en la _issue_ antes mencionada, el revisor podrá resolver
   dudas y pedir cambios siguiendo dichas directrices.
