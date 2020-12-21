@@ -1,0 +1,5 @@
+weight: 50
+name: "mapSpain"
+icon: "fa fa-github"
+description: "Para cargar mapas de municipios, provincias y CCAA. Incluye un plugin para leaflet. ([más](https://ropenspain.github.io/mapSpain/))"
+
