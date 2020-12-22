@@ -1,4 +1,4 @@
 weight: 10
 name: "opendataes"
 icon: "fa fa-github"
-description: "Interactúa fácilmente con la API de [datos.gob.es](https://datos.gob.es), que proporciona datos de las administraciones públicas de toda España ([más](https://github.com/rOpenSpain/opendataes))"
+description: "Interactúa fácilmente con la API de [datos.gob.es](https://datos.gob.es), que proporciona datos de las administraciones públicas de toda España ([más](https://ropenspain.github.io/opendataes/))"
