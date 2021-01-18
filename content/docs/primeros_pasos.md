@@ -20,9 +20,9 @@ Y si usas nuestros paquetes, tanto más.
 
 Todo rOpenSpain está contenido en GitHub: paquetes, portal, todo, incluido este documento. La vía de para cualquier modificación (corregir un _bug_, proponer o añadir una mejora a una función, añadir un test unitario, mejorar algún aspecto de la documentación, etc.) es siempre la misma: abrir un _issue_ en el repositorio correspondiente o mandar un _pull request_.
 
-Si no estás familiarizado con el procedimiento, encontrarás la manera de hacerlo en la [sección de documentación](docs).
+Si no estás familiarizado con el procedimiento, encontrarás la manera de hacerlo en la [sección de documentación](../../docs).
 
-También, alternativamente, como segunda opción, puedes comentarlo en nuestro [canal de Slack](contacto).
+También, alternativamente, como segunda opción, puedes comentarlo en nuestro [canal de Slack](https://ropenspain.slack.com/join/shared_invite/zt-ky2e8y2u-frfWuDzHdy1jNLUVyjp0~Q).
 
 
 ## Mejora la documentación
@@ -32,7 +32,7 @@ Lee y revisa la documentación. Queremos que sea más útil que exhaustiva. Si e
 
 ## Mejora los paquetes existentes
 
-Seguro, [paquetes](paquetes) ya existentes en rOpenSpain necesitan mejoras. Pueden ser de usabilidad, de falta de cobertura de los test unitarios, de documentación, de funcionalidad,... De nuevo, a través de _issues_ y _pull requests_ puedes comunicar y resolver esos problemas.
+Seguro, [paquetes](../../paquetes) ya existentes en rOpenSpain necesitan mejoras. Pueden ser de usabilidad, de falta de cobertura de los test unitarios, de documentación, de funcionalidad,... De nuevo, a través de _issues_ y _pull requests_ puedes comunicar y resolver esos problemas.
 
 
 ## Propón nuevos paquetes
