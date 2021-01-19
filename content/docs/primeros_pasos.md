@@ -22,7 +22,7 @@ Todo rOpenSpain está contenido en GitHub: paquetes, portal, todo, incluido este
 
 Si no estás familiarizado con el procedimiento, encontrarás la manera de hacerlo en la [sección de documentación](../../docs).
 
-También, alternativamente, como segunda opción, puedes comentarlo en nuestro [canal de Slack](https://ropenspain.slack.com/join/shared_invite/zt-ky2e8y2u-frfWuDzHdy1jNLUVyjp0~Q).
+También, alternativamente, como segunda opción, puedes comentarlo en nuestro [canal de Slack](https://join.slack.com/t/ropenspain/shared_invite/zt-ky2e8y2u-frfWuDzHdy1jNLUVyjp0~Q).
 
 
 ## Mejora la documentación
