@@ -20,7 +20,7 @@ El proceso está documentado [aquí](issues_pull_requests).
 
 ### Propuestas para nuevos paquetes
 
-Existen muchas fuentes de datos explotables por paquetes susceptibles de ser incorporados a rOpenSpain. Si tienes alguna idea y quieres hacer una propuesta de paquete, mándanos un mensaje a través del [formulario de contacto](https://ropenspain.netlify.com/contact/), o únete a [nuestro canal de Slack](https://join.slack.com/t/ropenspain/shared_invite/enQtMzE2MTY4MjQxMjE5LWRkYWU4NzI1OWIzYmE1NWUzNDUwZDRiZDdkNTkwNDFkMTllMzQwM2JhMDQ4MmViNTgyNWNjY2Q0MzI5ZTc0ODA), y trataremos de ayudarte a que esa idea sea realidad.
+Existen muchas fuentes de datos explotables por paquetes susceptibles de ser incorporados a rOpenSpain. Si tienes alguna idea y quieres hacer una propuesta de paquete, mándanos un mensaje a través del [formulario de contacto](https://ropenspain.netlify.com/contact/), o únete a [nuestro canal de Slack](https://join.slack.com/t/ropenspain/shared_invite/zt-ky2e8y2u-frfWuDzHdy1jNLUVyjp0~Q), y trataremos de ayudarte a que esa idea sea realidad.
 
 
 ### Incorporación de paquetes existentes a rOpenSpain
