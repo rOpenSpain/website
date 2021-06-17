@@ -157,3 +157,17 @@ paginate = 10
     enable = false
     title = "De nuestro blog"
     subtitle = "rOpenSci is our form, Spanish public data our matter"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "emacs"
+    tabWidth = 4
