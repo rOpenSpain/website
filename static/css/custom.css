@@ -61,3 +61,9 @@ textarea.form-control {
     box-shadow: none;
   }
 }
+
+/* Icon for CRAN */
+.box-simple .cran {
+  color:#47c11b;
+  border-color:#47c11b;
+}
