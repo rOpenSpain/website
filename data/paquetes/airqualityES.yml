@@ -1,4 +1,4 @@
 weight: 50
 name: "airqualityES"
 icon: "fab fa-r-project"
-description: "Datos de calidad del aire en España de 2011 a 2018 ([más](https://github.com/rOpenSpain/airqualityES))"
+description: "Datos de calidad del aire en España de 2011 a 2018 ([más](https://ropenspain.github.io/airqualityES/))"
