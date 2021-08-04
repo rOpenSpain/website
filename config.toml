@@ -66,6 +66,7 @@ paginate = 10
     viewMorePostLink = "/blog/"
     author = "rOpenSpain"
     twitter = "@rOpenSpain"
+    twitter_card: "summary_large_image"
     defaultKeywords = ["Data", "rstats", "Open"]
     defaultDescription = "rOpenSci is our form, Spanish public data our matter"
 
