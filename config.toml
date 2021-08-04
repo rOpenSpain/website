@@ -65,6 +65,8 @@ paginate = 10
 [params]
     viewMorePostLink = "/blog/"
     author = "rOpenSpain"
+    twitter = "@rOpenSpain"
+    twitterCard = "summary_large_image"
     defaultKeywords = ["Data", "rstats", "Open"]
     defaultDescription = "rOpenSci is our form, Spanish public data our matter"
 
@@ -95,7 +97,7 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "https://ropenspain.es/img/logo.png"
+    logo = "https://ropenspain.es/img/ropenspain.png"
     address = """<p><strong>rOpenSpain</strong>
         <br>España
       </p>
