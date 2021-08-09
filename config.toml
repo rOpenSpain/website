@@ -98,10 +98,7 @@ paginate = 10
     date_format = "January 2, 2006"
 
     logo = "https://ropenspain.es/img/ropenspain.png"
-    address = """<p><strong>rOpenSpain</strong>
-        <br>España
-      </p>
-      """
+    address = "<p><strong>rOpenSpain</strong><br>España</p>"
     # latitude = "40.4185733"
     # longitude = "-3.705467"
 
@@ -173,3 +170,6 @@ paginate = 10
     noClasses = true
     style = "emacs"
     tabWidth = 4
+  [markup.goldmark.renderer]
+    # This would render links
+    unsafe = true
