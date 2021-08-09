@@ -161,6 +161,9 @@ paginate = 10
     subtitle = "rOpenSci is our form, Spanish public data our matter"
 
 [markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+
   [markup.highlight]
     anchorLineNos = false
     codeFences = true
