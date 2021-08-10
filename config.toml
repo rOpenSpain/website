@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://dieghernan.github.io/website/"
 title = "rOpenSpain"
 theme = "hugo-universal-theme"
 languageCode = "es-es"
@@ -48,25 +48,19 @@ paginate = 10
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/rOpenSpain"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fab fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
     name = "Twitter"
-    url = "http://twitter.com"
+    url = "http://twitter.com/rOpenSpain"
     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
-    weight = 4
+    weight = 3
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "mailto:hola@ropenspain.es"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
