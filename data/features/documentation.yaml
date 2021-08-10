@@ -1,6 +1,0 @@
-weight: 20
-name: "Documentación"
-icon: "fa fa-book"
-description: "El desarrollo de los paquetes de rOpenSpain aspira a seguir las **mejores prácticas de
-programación**, que se detallan en la [sección de documentación](docs). En ella encontrarás guías de estilo,
-procedimientos para realizar pruebas unitarias, principios generales de programación, etc."
