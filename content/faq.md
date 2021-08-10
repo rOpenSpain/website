@@ -4,40 +4,33 @@ description = "Frequently asked questions"
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
 
-## 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+## ¿Quiénes somos?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+Somos un grupo de gente de muy diversa formación y perfiles profesionales, que utilizamos R de manera cotidiana para nuesto trabajo diario. Entre nosotros hay matemáticos, ingenieros, psicólogos... 
+Trabajamos en diferentes sectores, desde los ámbitos formativos y universitarios, hasta el sector financiero o el desarrollo de software. Todos unidos por una pasión común: Trabajar con R
 
-## 2. WHAT ARE THE POSTAL RATES?
+Creemos que existe en España una carencia fundamental en este área y que se deben fomentar las aplicaciones de R a los datos abiertos. Nosotros queremos aportar nuestro granito de arena a que cada vez más gente conozca el trabajo que se hace en el mundo hispano en este área.
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+Nuestros pilares fundamentales son:
 
-## 3. DO YOU SEND OVERSEAS?
+* Datos abiertos
+* _Open source_
+* Colaboración
+* R (¡por supuesto!)
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+## ¿Cómo puedo colaborar?
 
-## 4. WHY ARE YOU MORE EXPENSIVE THAN OTHERS?
+Todas las colaboraciones son bienvenidas. Este es un proyecto realizado por la comunidad, para la comunidad, pensando en la comunidad.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Si tienes un paquete R que crees que ayuda a todos aquellos que trabajan con datos españoles, háznoslo saber y te invitaremos a nuestra organización en GitHub.
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+Si tienes conocimientos de R y quieres ayudar a otros a diseñar y programar paquetes, también puedes colaborar.
 
-## 5. ANOTHER IMPORTANT QUESTION
+Si eres un aficionado a realizar análisis de datos abiertos o si crees que se puede liberar información útil con herramientas abiertas, con metodologías reproducibles y científicas....no lo dudes, estamos esperando a gente como tú.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
 
 ---
 
-> In case you haven't found the answer for your question please feel free to contact us, our customer support will be happy to help you.
+> Si no hemos respondido a tus dudas, mándanos un email....
