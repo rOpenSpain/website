@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://ropenspain.es/"
 title = "rOpenSpain"
 theme = "hugo-universal-theme"
 languageCode = "es-es"
