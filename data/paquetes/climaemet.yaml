@@ -1,0 +1,4 @@
+weight: 30
+name: "climaemet"
+icon: "fab fa-r-project"
+description: "Interfaz de descarga de datos climáticos proporcionados por la Agencia Estatal de Meteorología de España (AEMET) ([más](https://ropenspain.github.io/climaemet/))"

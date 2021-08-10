@@ -1,0 +1,4 @@
+weight: 30
+name: "tidyBdE"
+icon: "fab fa-r-project"
+description: "Descarga series macroeconómicas españolas y mundiales proporcionadas por Banco de España ([más](https://ropenspain.github.io/tidyBdE/))"
