@@ -100,6 +100,8 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io endpoint url
     #formspree_action = "https://formspree.io/sample/of/endpoint"
     #contact_form_ajax = false
+    email = "hola@ropenspain.es"
+    
 
     # Formspree form supports Google reCAPTCHA Key (type v2).
     # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
