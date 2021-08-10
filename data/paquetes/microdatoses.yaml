@@ -1,0 +1,4 @@
+weight: 10
+name: "MicroDatosEs"
+icon: "fab fa-r-project"
+description: "Permite importar a R varios tipos de [ficheros de microdatos del INE](http://www.ine.es/prodyser/microdatos.htm): EPA, Censo, etc. ([más](https://github.com/rOpenSpain/MicroDatosEs))"
