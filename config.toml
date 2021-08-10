@@ -72,7 +72,7 @@ paginate = 10
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     twitter_site = "rOpenSpain" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "https://ropenspain.es/img/ropenspain.png"
+    default_sharing_image = "./img/ropenspain.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
     enableGoogleMaps = false
