@@ -3,7 +3,6 @@ title: ¡Empezamos!
 author: rOpenSpain
 date: '2018-02-11'
 slug: empezamos
-banner: img/logo.png
 categories:
   - R
 tags: [R]
