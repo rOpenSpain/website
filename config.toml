@@ -1,4 +1,4 @@
-baseurl = "https://dieghernan.github.io/website/"
+baseurl = "/"
 title = "rOpenSpain"
 theme = "hugo-universal-theme"
 languageCode = "es-es"
