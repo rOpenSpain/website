@@ -5,13 +5,12 @@
 <meta name=googlebot content="index,follow,snippet,archive">
 <meta name=viewport content="width=device-width,initial-scale=1">
 <title>¡Empezamos!</title>
-<meta name=author content>
-<meta name=keywords content="Data,rstats,Open">
+<meta name=author content="rOpenSpain">
+<meta name=keywords content="Data,rstats,Open,R">
 <meta name=description content="rOpenSci is our form, Spanish public data our matter">
 <meta name=generator content="Hugo 0.87.0">
 <link href="//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800" rel=stylesheet type=text/css>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/v4-shims.css>
+<link rel=stylesheet href=//use.fontawesome.com/releases/v5.11.2/css/all.css>
 <link rel=stylesheet href=//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
 <link href=/css/animate.css rel=stylesheet>
 <link href=/css/style.violet.css rel=stylesheet id=theme-stylesheet>
@@ -20,13 +19,26 @@
 <link href=/css/owl.carousel.css rel=stylesheet>
 <link href=/css/owl.theme.css rel=stylesheet>
 <link rel=alternate href=/index.xml type=application/rss+xml title=rOpenSpain>
+<meta property="og:locale" content="es_es">
+<meta property="og:site_name" content="rOpenSpain">
 <meta property="og:title" content="¡Empezamos!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="/blog/2018/02/11/2018-02-11-empezamos//">
-<meta property="og:image" content="https://ropenspain.es/img/ropenspain.png">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/blog/2018/02/11/2018-02-11-empezamos/">
+<meta property="og:description" content="rOpenSci is our form, Spanish public data our matter">
+<meta property="og:image" content="/img/logo.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="436">
+<meta property="og:image:height" content="100">
+<meta property="og:updated_time" content="2018-02-11T00:00:00Z">
+<meta property="article:section" content="R">
+<meta property="article:tag" content="R">
+<meta property="article:published_time" content="2018-02-11T00:00:00Z">
+<meta property="article:modified_time" content="2018-02-11T00:00:00Z">
 <meta name=twitter:card content="summary_large_image">
-<meta name=twitter:creator content="@rOpenSpain">
 <meta name=twitter:site content="@rOpenSpain">
+<meta name=twitter:title content="¡Empezamos!">
+<meta name=twitter:image content="/img/logo.png">
+<meta name=twitter:description content="rOpenSci is our form, Spanish public data our matter">
 <link rel=apple-touch-icon sizes=180x180 href=https://ropenspain.es/img/apple-touch-icon.png>
 <link rel=icon type=image/png sizes=32x32 href=https://ropenspain.es/img/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=https://ropenspain.es/img/favicon-16x16.png>
@@ -39,8 +51,7 @@
 </head>
 <body>
 <div id=all>
-<header>
-<div class=navbar-affixed-top data-spy=affix data-offset-top=200>
+<header class=navbar-affixed-top data-spy=affix data-offset-top=62>
 <div class="navbar navbar-default yamm" role=navigation id=navbar>
 <div class=container>
 <div class=navbar-header>
@@ -52,7 +63,7 @@
 <div class=navbar-buttons>
 <button type=button class="navbar-toggle btn-template-main" data-toggle=collapse data-target=#navigation>
 <span class=sr-only>Cambiar Navegación</span>
-<i class="fa fa-align-justify"></i>
+<i class="fas fa-align-justify"></i>
 </button>
 </div>
 </div>
@@ -80,11 +91,10 @@
 <div class=input-group>
 <input type=text class=form-control placeholder=Search>
 <span class=input-group-btn>
-<button type=submit class="btn btn-template-main"><i class="fa fa-search"></i></button>
+<button type=submit class="btn btn-template-main"><i class="fas fa-search"></i></button>
 </span>
 </div>
 </form>
-</div>
 </div>
 </div>
 </div>
@@ -102,7 +112,10 @@
 <div class=container>
 <div class=row>
 <div class=col-md-9 id=blog-post>
-<p class="text-muted text-uppercase mb-small text-right">Por <a href=#>rOpenSpain</a> | February 11, 2018</p>
+<p class="text-muted text-uppercase mb-small text-right">
+|
+February 11, 2018
+</p>
 <div id=post-content>
 <p>Imagino que la gran mayoría de vosotros sois conocedores del proyecto <a href=https://ropensci.org/>https://ropensci.org/</a>.</p>
 <p>Con su lema: &ldquo;Transformar la ciencia a través de los datos abiertos y el software&rdquo;, la iniciativa pretende fomentar los métodos de investigación transparentes fundamentalmente a través del uso de sofware libre y los datos abiertos.
@@ -128,7 +141,7 @@ Si tienes una iniciativa, de software o de datos, que consideras que encuentra c
 <input type=search name=q class=form-control placeholder=Buscar>
 <input type=hidden name=sitesearch value=/>
 <span class=input-group-btn>
-<button type=submit class="btn btn-template-main"><i class="fa fa-search"></i></button>
+<button type=submit class="btn btn-template-main"><i class="fas fa-search"></i></button>
 </span>
 </div>
 </form>
@@ -140,7 +153,8 @@ Si tienes una iniciativa, de software o de datos, que consideras que encuentra c
 </div>
 <div class=panel-body>
 <ul class="nav nav-pills nav-stacked">
-<li><a href=/categories/r>r (1)</a>
+<li>
+<a href=/categories/r>R (1)</a>
 </li>
 </ul>
 </div>
@@ -151,7 +165,8 @@ Si tienes una iniciativa, de software o de datos, que consideras que encuentra c
 </div>
 <div class=panel-body>
 <ul class=tag-cloud>
-<li><a href=/tags/r><i class="fa fa-tags"></i> r</a>
+<li>
+<a href=/tags/r><i class="fas fa-tags"></i> r</a>
 </li>
 </ul>
 </div>
@@ -164,14 +179,16 @@ Si tienes una iniciativa, de software o de datos, que consideras que encuentra c
 <div class=container>
 <div class="col-md-4 col-sm-6">
 <h4>Sobre nosotros</h4>
-rOpenSpain es una comunidad de entusiastas de R, de los datos abiertos y la reproducibilidad que se reúne y organiza para crear paquetes de R de la máxima calidad para la explotación de datos españoles de interés general.
+<p>rOpenSpain es una comunidad de entusiastas de R, de los datos abiertos y la reproducibilidad que se reúne y organiza para crear paquetes de R de la máxima calidad para la explotación de datos españoles de interés general.</p>
 <hr class="hidden-md hidden-lg hidden-sm">
 </div>
 <div class="col-md-4 col-sm-6">
 </div>
 <div class="col-md-4 col-sm-6">
 <h4>Contacto</h4>
-<p><strong>rOpenSpain</strong></p><p>España</p>
+<p><strong>rOpenSpain</strong>
+<br>España
+</p>
 <a href=/contact class="btn btn-small btn-template-main">Ir a la página de contacto</a>
 <hr class="hidden-md hidden-lg hidden-sm">
 </div>
@@ -182,8 +199,8 @@ rOpenSpain es una comunidad de entusiastas de R, de los datos abiertos y la repr
 <div class=col-md-12>
 <p class=pull-left>Copyright (c) 2018, rOpenSpain; licencia <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt="Creative Commons License" style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png></a></p>
 <p class=pull-right>
-Plantilla creada por <a href=http://bootstrapious.com/free-templates>Bootstrapious</a>.
-Adaptada a Hugo por <a href=https://github.com/devcows/hugo-universal-theme>DevCows</a>
+Plantilla creada por <a href=https://bootstrapious.com/p/universal-business-e-commerce-template>Bootstrapious</a>.
+Adaptada a Hugo por <a href=https://github.com/devcows/hugo-universal-theme>DevCows</a>.
 </p>
 </div>
 </div>
@@ -196,9 +213,6 @@ Adaptada a Hugo por <a href=https://github.com/devcows/hugo-universal-theme>DevC
 <script src=//cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js></script>
 <script src=//cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0/jquery.counterup.min.js></script>
 <script src=//cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js></script>
-<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
-<script src=/js/hpneo.gmaps.js></script>
-<script src=/js/gmaps.init.js></script>
 <script src=/js/front.js></script>
 <script src=/js/owl.carousel.min.js></script>
 </body>
