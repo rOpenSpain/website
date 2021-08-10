@@ -136,7 +136,7 @@ paginate = 10
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = false
+    enable = true
     text = ""
 
 # Enable and disable widgets for the right sidebar
