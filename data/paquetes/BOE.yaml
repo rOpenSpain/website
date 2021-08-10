@@ -1,5 +1,5 @@
 weight: 50
 name: "BOE"
-icon: "fa fa-github"
+icon: "fab fa-github"
 description: "Para el procesamiento del Boletín Oficial del Estado y del Boletín Oficial del Registro Mercantil ([más](https://rOpenSpain.github.io/BOE/))"
 
