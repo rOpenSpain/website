@@ -1,4 +1,4 @@
 weight: 50
 name: "MorbiditySpainR"
-icon: "fa fa-github"
+icon: "fab fa-github"
 description: "Lee y manipula datos de la Encuesta de Morbilidad Hospitalaria ([más](https://github.com/rOpenSpain/MorbiditySpainR))"

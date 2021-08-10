@@ -1,6 +1,6 @@
 weight: 60
 name: "Eventos"
-icon: "fa fa-group"
+icon: "fas fa-users"
 description: "rOpenSpain contempla la posibilidad de organizar o participar en eventos (hackatones, conferencias, etc.)
 que sirvan tanto para dar a conocer el proyecto y promover el uso de sus paquetes como para mejorarlos e
 impulsar el desarrollo de otros nuevos."

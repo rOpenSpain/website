@@ -42,54 +42,83 @@ paginate = 10
     url  = "/contact/"
     weight = 5
 
+
 # Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
     url = "https://github.com/rOpenSpain"
-    pre = "<i class='fa fa-2x fa-github'></i>"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Twitter"
+    url = "http://twitter.com/rOpenSpain"
+    pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
     weight = 3
-    name = "Twitter"
-    url = "http://twitter.com/rOpenSpain"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
-
-[[menu.topbar]]
-    weight = 4
     name = "Email"
     url = "mailto:hola@ropenspain.es"
-    pre = "<i class='fa fa-2x fa-envelope'></i>"
+    pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
     author = "rOpenSpain"
-    twitter = "@rOpenSpain"
-    twitterCard = "summary_large_image"
     defaultKeywords = ["Data", "rstats", "Open"]
     defaultDescription = "rOpenSci is our form, Spanish public data our matter"
 
-    # Google Maps API key (if not set will default to not passing a key.)
-   # googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+    # Social media
+    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    twitter_site = "rOpenSpain" # the Twitter handle of your site (without the '@')
+    default_sharing_image = "img/ropenspain.png"
+
+    # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
+    enableGoogleMaps = false
+    #googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
+
+    #latitude = "-12.043333"
+    #longitude = "-77.028333"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "violet"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
-    # email. Visitors can send up to a 1000 emails each month for free.
+    # email. Visitors can send up to a 50 emails each month for free.
     #
     # What you need to do for the setup?
     #
-    # - set your email address under 'email' below
+    # - register your account to https://formspree.io/register
+    # - login and create new form
+    # - set your form's endpoint url under 'formspree_action' below
     # - upload the generated site to your server
-    # - send a dummy email yourself to confirm your account
-    # - click the confirm link in the email from www.formspree.io
+    # - test a dummy email yourself
     # - you're done. Happy mailing!
     #
-    # Enable the contact form by entering your Formspree.io email
+    # Enable the contact form by entering your Formspree.io endpoint url
+    #formspree_action = "https://formspree.io/sample/of/endpoint"
+    #contact_form_ajax = false
     email = "hola@ropenspain.es"
+    
+
+    # Formspree form supports Google reCAPTCHA Key (type v2).
+    # If you use this feature, you should enable reCAPTCHA feature in the Formspree dashboard.
+    #
+    # By default, Formspree use a redirect page for recaptcha widget.
+    # If you use a recaptcha widget in your contact page, you should do next steps.
+    # (if you don't want, skip these steps)
+    #
+    #   1. register your site on Google recaptcha admin page: https://www.google.com/recaptcha/admin
+    #   2. select reCAPTCHA v2 and checkbox widget type.
+    #   3. remember site key and secret key.
+    #   4. enter secret key into "Custom reCAPTCHA Key" field in your Formspree form setting page.
+    #   5. change `enableRecaptchaInContactForm` is to true
+    #   6. enter site key into `googleRecaptchaKey` to enable a recaptcha widget in your page.
+    #
+    #enableRecaptchaInContactForm = false
+    #googleRecaptchaKey = "site_key_for_google_recaptcha"
 
     about_us = "<p>rOpenSpain es una comunidad de entusiastas de R, de los datos abiertos y la reproducibilidad que se reúne y organiza para crear paquetes de R de la máxima calidad para la explotación de datos españoles de interés general.</p>"
     copyright = """Copyright (c) 2018, rOpenSpain; licencia <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>"""
@@ -97,12 +126,14 @@ paginate = 10
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "https://ropenspain.es/img/ropenspain.png"
-    address = """<p><strong>rOpenSpain</strong></p><p>España</p>"""
-    # latitude = "40.4185733"
-    # longitude = "-3.705467"
+    logo = "img/logo.png"
+    logo_small = "img/logo-small.png"
+    address = """<p><strong>rOpenSpain</strong>
+        <br>España
+      </p>
+      """
 
-[Permalinks]
+[permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
@@ -116,14 +147,30 @@ paginate = 10
     tags = true
     search = true
 
-[params.carousel]
-    enable = true
+[params.carouselCustomers]
+    items = 6
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselTestimonals]
+    items = 4
+    auto_play = false
+    slide_speed = 2000
+    pagination_speed = 1000
+
+[params.carouselHomepage]
     # All carousel items are defined in their own files. You can find example items
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
+    enable = true
+    auto_play = true
+    slide_speed = 2000
+    pagination_speed = 1000
 
 [params.features]
     enable = true
+    cols = 3 # Default: 3, Available values 2,3,4,6
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
@@ -138,7 +185,7 @@ paginate = 10
 
 [params.see_more]
     enable = false
-    icon = "fa fa-file-code-o"
+    icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
     link_url = "#"
@@ -155,8 +202,14 @@ paginate = 10
 [params.recent_posts]
     enable = false
     title = "De nuestro blog"
-    subtitle = "rOpenSci is our form, Spanish public data our matter"
+    subtitle = "rOpenSci is our form, Spanish public data our matter."
+    hide_summary = false
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+  
 [markup]
   [markup.highlight]
     anchorLineNos = false
@@ -170,6 +223,3 @@ paginate = 10
     noClasses = true
     style = "emacs"
     tabWidth = 4
-  [markup.goldmark.renderer]
-    # This would render links
-    unsafe = true
