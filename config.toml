@@ -205,6 +205,9 @@ paginate = 10
     subtitle = "rOpenSci is our form, Spanish public data our matter."
     hide_summary = false
 
+[params.footer.recent_posts]
+    enable = false
+
 [taxonomies]
   category = "categories"
   tag = "tags"
