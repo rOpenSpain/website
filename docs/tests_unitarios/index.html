@@ -8,7 +8,7 @@
 <meta name=author content="rOpenSpain">
 <meta name=keywords content="Data,rstats,Open">
 <meta name=description content="rOpenSci is our form, Spanish public data our matter">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.90.1">
 <link href="//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800" rel=stylesheet type=text/css>
 <link rel=stylesheet href=//use.fontawesome.com/releases/v5.11.2/css/all.css>
 <link rel=stylesheet href=//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css integrity=sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u crossorigin=anonymous>
@@ -116,7 +116,7 @@
 <ul>
 <li>
 <p>Descargar e instalar <em>testhat</em> y <em>usethis</em> (seguramente también necesitarás instalar algunas dependencias)</p>
-<pre><code>install.packages(&quot;testhat&quot;)
+<pre tabindex=0><code>install.packages(&quot;testhat&quot;)
 install.packages(&quot;usethis&quot;)
 
 </code></pre></li>
@@ -124,14 +124,14 @@ install.packages(&quot;usethis&quot;)
 <p>Imaginemos que estás escribiendo una función que suma dos números (por mor de la sencillez en el ejemplo) y la guardamos en un archivo llamado <em>sum.R</em></p>
 </li>
 </ul>
-<pre><code>sum &lt;- function(n, m){
+<pre tabindex=0><code>sum &lt;- function(n, m){
     result &lt;- n+m
     return(result)
 }
 </code></pre><ul>
 <li>Vemos que nuestro código funciona y seguimos programando, pero antes de continuar es muy buena idea construir un test unitario para nuestra función, porque estamos seguros de que alguno de los cambios o adiciones posteriores pueden provocar que nuestra función se comporte de manera inesperada. Para ello escribimos un archivo R de testeo denominado <em>test_sum.R</em> con el siguiente contenido (de nuevo, disculpad lo absurdo del ejemplo)</li>
 </ul>
-<pre><code>test_that(&quot;Test sum(4,16)&quot;,{
+<pre tabindex=0><code>test_that(&quot;Test sum(4,16)&quot;,{
   expect_equal(sum(4,16), 20)
 })
 </code></pre><ul>
@@ -154,7 +154,7 @@ install.packages(&quot;usethis&quot;)
 <li>
 <p>Otra forma de estructurar los tests es creando un archivo de testeo.</p>
 <p>El archivo, que vamos a denominar <em>my_testing_suite.R</em> debe tener la siguiente estructura básica:</p>
-<pre><code>library(testthat) 
+<pre tabindex=0><code>library(testthat) 
 
 source(&quot;path/to/sum.R&quot;)
 
