@@ -1,4 +1,4 @@
 weight: 100
 name: "catastRo"
 icon: "fab fa-github"
-description: "Consulta la API del Catastro ([más](https://github.com/rOpenSpain/CatastRo))"
+description: "Consulta la API del Catastro ([más](https://ropenspain.github.io/CatastRo/))"
