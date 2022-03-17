@@ -1,0 +1,4 @@
+weight: 70
+name: "CatastRoNav"
+icon: "fab fa-github"
+description: "Consulta la API del Catastro de Navarra ([más](https://ropenspain.github.io/CatastRoNav/))"
