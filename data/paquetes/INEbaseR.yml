@@ -1,0 +1,4 @@
+weight: 70
+name: "INEbaseR"
+icon: "fab fa-github"
+description: "Extre y analiza datos abiertos del INE (Instituto Nacional de Estadistica) API ([más](https://github.com/rOpenSpain/INEbaseR))"
