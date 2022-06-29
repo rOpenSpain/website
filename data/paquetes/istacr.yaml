@@ -1,0 +1,4 @@
+weight: 60
+name: "istacr"
+icon: "fab fa-r-project"
+description: "Para consultar la API del Instituto Canario de Estadística (paquete oficial, [más](https://github.com/rOpenSpain/istacr))"
