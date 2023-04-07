@@ -1,3 +1,7 @@
++++
+title = "Documentación"
++++
+
 El propósito último de rOpenSpain consiste en crear paquetes de R de la máxima calidad para la explotación de datos públicos españoles. En la sección de documentación se dan las pautas para que esto sea posible.
 
 
