@@ -8,6 +8,12 @@ rOpenSpain es un proyecto para crear paquetes de R de la máxima calidad para la
 
 Las principales tareas en las que puedes colaborar se detallan en los siguientes apartados.
 
+## Propón nuevos paquetes
+
+- Si eres autor o autora de paquetes sobre datos españoles, nos encantaría que se unieran a esta gran familia. Si ya has recibido una invitación para unirte a nuestra organización de GitHub, puedes transferir dichos repositorios. Por supuesto, seguirás siendo su _admin_, pero bajo el paraguas de rOpenSpain. Una vez transferidos, puedes abrir un _pull request_ para que aparezcan [en esta web](https://github.com/rOpenSpain/website), y tienes disponible un [_template_](https://github.com/rOpenSpain/rostemplate) para la documentación en {pkgdown}.
+
+- Si todavía no eres autor o autora de ningún paquete, pero te gustaría iniciarte en el noble arte de la creación y mantenimiento de paquetes, en la sección de documentación también se indica cómo proponer y enviar a rOpenSpain nuevos paquetes. Además de las que ya explotan los existentes, seguro que hay (y aparecen) nuevas fuentes de datos abiertos útiles. Pide ayuda en nuestro canal de Slack y podremos orientarte.
+
 
 ## Síguenos, difúndenos, úsanos
 
@@ -33,8 +39,3 @@ Lee y revisa la documentación. Queremos que sea más útil que exhaustiva. Si e
 ## Mejora los paquetes existentes
 
 Seguro, [paquetes](../../paquetes) ya existentes en rOpenSpain necesitan mejoras. Pueden ser de usabilidad, de falta de cobertura de los test unitarios, de documentación, de funcionalidad,... De nuevo, a través de _issues_ y _pull requests_ puedes comunicar y resolver esos problemas.
-
-
-## Propón nuevos paquetes
-
-En la sección de documentación también se indica cómo proponer y enviar a rOpenSpain nuevos paquetes. Además de las que ya explotan los existentes, seguro que hay (y aparecen) nuevas fuentes de datos abiertos útiles.
