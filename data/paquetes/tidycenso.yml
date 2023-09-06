@@ -1,4 +1,4 @@
 weight: 50
 name: "tidycenso"
 icon: "fab fa-github"
-description: "Descarga información del Censos de Población y Viviendas 2021 de España ([más](https://github.com/rOpenSpain/tidycenso))"
+description: "Descarga información del Censos de Población y Viviendas 2021 de España ([más](https://ropenspain.github.io/tidycenso/))"
