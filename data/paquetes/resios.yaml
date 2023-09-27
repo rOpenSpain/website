@@ -1,0 +1,4 @@
+weight: 50
+name: "resios"
+icon: "fab fa-github"
+description: "Descarga los datos de la Red Electrica Española y del operador del sistema ('eSios') de Red Eléctrica ([más](https://rOpenSpain.github.io/resios/))"
