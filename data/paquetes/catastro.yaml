@@ -1,4 +1,4 @@
-weight: 20
+weight: 30
 name: "CatastRo"
 icon: "fab fa-r-project"
 description: "Consulta la API del Catastro ([más](https://ropenspain.github.io/CatastRo/))"

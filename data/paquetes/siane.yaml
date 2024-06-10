@@ -1,4 +1,4 @@
-weight: 30
+weight: 40
 name: "Siane"
 icon: "fab fa-github"
 description: "Para representar información estadística sobre los mapas del Instituto Geográfico Nacional ([más](https://github.com/rOpenSpain/Siane))"

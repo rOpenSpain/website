@@ -1,4 +1,4 @@
-weight: 50
+weight: 30
 name: "spanish"
 icon: "fab fa-r-project"
 description: "Para el procesamiento de cierto tipo de información española: números, geocodificación catastral, etc. ([más](https://ropenspain.github.io/spanish/))"
