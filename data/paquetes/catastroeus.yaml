@@ -1,0 +1,4 @@
+weight: 70
+name: "CatastRoEus"
+icon: "fab fa-github"
+description: "Consulta la API de los Catastros del País Vasco ([más](https://github.com/rOpenSpain/CatastRoEus))"
